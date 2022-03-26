@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 mongoose
-	.connect('mongodb://localhost:27017/restapi', {
+	.connect('mongodb+srv://aaaaaaaa:<aaaaaaaa>@cluster0.n0skm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 	})
